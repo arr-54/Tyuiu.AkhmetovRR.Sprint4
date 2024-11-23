@@ -3,11 +3,6 @@ namespace Tyuiu.AkhmetovRR.Sprint4.Task1.V24.Lib
 {
     public class DataService : ISprint4Task1V24
     {
-        public int Calculate(int[] array)
-        {
-            throw new NotImplementedException();
-        }
-
         public int[] matrix1(int i, int startValue, int stopValue)
         {
             int[] matrix = new int[i];
@@ -17,7 +12,7 @@ namespace Tyuiu.AkhmetovRR.Sprint4.Task1.V24.Lib
             }
             return matrix;
         }
-        public int matrix3(int[] matrix)
+        public int Calculate(int[] matrix)
         {
             int multpy = 1;
             for (int i = 0; i < matrix.Length; i++)

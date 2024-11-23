@@ -14,8 +14,7 @@ namespace Tyuiu.AkhmetovRR.Sprint4.Task7.V6.Test
             string str = "458963214789";
             int rows = 3;
             int columns = 4;
-            int[,] mtrx = ds.Calculate(rows, columns, str);
-            int res = ds.Nechet(mtrx);
+            int res = ds.Calculate(rows,columns,str);
             int wait = 34;
             Assert.AreEqual(wait, res);
         }

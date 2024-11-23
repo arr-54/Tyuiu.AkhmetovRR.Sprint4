@@ -12,16 +12,7 @@ namespace Tyuiu.AkhmetovRR.Sprint4.Task7.V6
             int rows = 3;
             int columns = 4;
             string str = "458963214789";
-            int[,] mtrx = ds.Calculate(rows, columns, str);
-            for (int i = 0; i < rows; i++)
-            {
-                for (int j = 0; j < columns; j++)
-                {
-                    Console.Write(mtrx[i, j] + " ");
-                }
-                Console.WriteLine();
-            }
-            int sum = ds.Nechet(mtrx);
+            int sum = ds.Calculate(rows, columns, str);
             Console.WriteLine(sum);
             Console.ReadKey();
         }

@@ -13,7 +13,7 @@ namespace Tyuiu.AkhmetovRR.Sprint4.Task1.V24
         {
             DataService ds = new DataService();
             int[] numArray = ds.matrix1(16, 2, 5);
-            int result = ds.matrix3(numArray);
+            int result = ds.Calculate(numArray);
             Console.WriteLine(result);
             Console.ReadKey();
         }

@@ -16,7 +16,7 @@ namespace Tyuiu.AkhmetovRR.Sprint4.Task4.V21.Test
                                      {9, 8, 4, 8, 8},
                                      {6, 8, 6, 8, 9},
                                      {9, 4, 6, 6, 7} };
-            int result = ds.matrix3(numsWaitArray);
+            int result = ds.Calculate(numsWaitArray);
             int wait = 100;
             Assert.AreEqual(wait, result);
         }

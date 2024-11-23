@@ -13,7 +13,7 @@ namespace Tyuiu.AkhmetovRR.Sprint4.Task1.V24.Test
             DataService ds = new DataService();
 
             int[] numsWaitArray = { 5, 6 };
-            int result = ds.matrix3(numsWaitArray);
+            int result = ds.Calculate(numsWaitArray);
             int wait = 5;
             Assert.AreEqual(wait, result);
         }

@@ -28,7 +28,7 @@ namespace Tyuiu.AkhmetovRR.Sprint4.Task4.V21
 
                 Console.WriteLine();
             }
-            int res = ds.matrix3(mtrx);
+            int res = ds.Calculate(mtrx);
 
             Console.WriteLine("Сумма четных элементов: " + res);
             Console.ReadKey();
