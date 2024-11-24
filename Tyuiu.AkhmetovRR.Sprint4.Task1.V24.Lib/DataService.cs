@@ -3,15 +3,6 @@ namespace Tyuiu.AkhmetovRR.Sprint4.Task1.V24.Lib
 {
     public class DataService : ISprint4Task1V24
     {
-        public int[] matrix1(int i, int startValue, int stopValue)
-        {
-            int[] matrix = new int[i];
-            for (int j = 0; j < i; j++)
-            {
-                matrix[j] = int.Parse(Console.ReadLine());
-            }
-            return matrix;
-        }
         public int Calculate(int[] matrix)
         {
             int multpy = 1;
@@ -23,6 +14,15 @@ namespace Tyuiu.AkhmetovRR.Sprint4.Task1.V24.Lib
                 }
             }
             return multpy;
+        }
+        public int[] matrix1(int i, int startValue, int stopValue)
+        {
+            int[] matrix = new int[i];
+            for (int j = 0; j < i; j++)
+            {
+                matrix[j] = int.Parse(Console.ReadLine());
+            }
+            return matrix;
         }
     }
 }
